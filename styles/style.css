@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1600px;
+    margin: 0px auto;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 143px;
+}
+ nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    margin-top: 30px;
+    margin-right: 146px;
+}
+nav ul li{
+    font-family: "Raleway";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    color: rgba(40, 43, 34, 1);
+    cursor: pointer;
+}
+nav ul li:hover{
+    color: rgba(174, 123, 60, 1);
+}
+.social{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    margin-right: 63px;
+}
+.phone-number{
+    display: flex;
+    align-items: center;
+    margin-top: 36px;
+    gap: 7px;
+    cursor: pointer;
+}
+.phone-number span{
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(61, 74, 57, 1);   
+}
+main{
+    margin-top: 17px;    
+}
+.back-img{
+    position: relative;
+    width: 100%;
+}
+.about-hero{
+    position: absolute;
+    top: 213px;
+}
+.about-hero h2{
+    font-family: "Lato";
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67.2px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 577px;
+    text-transform: uppercase;
+}
+.about-hero p{
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: center;
+    opacity: 80%;
+    margin-left: 531px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 20px;
+}
+.about-hero button{
+    width: 260px;
+    height: 60px;
+    margin-left: 670px;
+    border: 1px solid rgba(174, 123, 60, 1);
+    background-color: rgba(174, 123, 60, 1);
+    font-family: "Raleway";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    transition: all 0.75s ease;
+    margin-top: 50px;
+}
+.about-hero button:hover{
+    background-color: rgb(243, 198, 140);
+    color: rgba(174, 123, 60, 1);
+    transform: scale(105%);
+}
+.carts{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-left: 200px;
+    margin-bottom: 140px;
+}
+.list-two h2{
+    font-family: "Raleway";
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 57.5px;
+    text-align: center;
+    color:rgba(40, 43, 34, 1);
+    text-transform: uppercase;
+    margin-top: 140px;
+    margin-bottom: 80px;
+}
+.cart-one{
+    width: 384px;
+    border: none;
+}
+.cart-one h5{
+    font-family: "Raleway";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 30px;
+    opacity: 50%;
+    color:rgba(40, 43, 34, 1);
+}
+.cart-one h6{
+    font-family: "Raleway";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 80px;
+    color: rgba(61, 74, 57, 1);
+}
+.cart-one img{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.cart-two{
+    width: 363px;
+    border: none;
+    border-left: 1px solid rgba(40, 43, 34, 1);
+}
+.cart-two h5{
+    font-family: "Raleway";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 30px;
+    opacity: 50%;
+    color:rgba(40, 43, 34, 1);
+}
+.cart-two h6{
+    font-family: "Raleway";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 80px;
+    color: rgba(61, 74, 57, 1);
+}
+.cart-two img{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+.cart-three{
+    width: 363px;
+    border: none;
+    border-left: 1px solid rgba(40, 43, 34, 1);
+}
+.cart-three h5{
+    font-family: "Raleway";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 30px;
+    opacity: 50%;
+    color:rgba(40, 43, 34, 1);
+}
+.cart-three h6{
+    font-family: "Raleway";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 80px;
+    color: rgba(61, 74, 57, 1);
+}
+.cart-three img{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.list__container{
+    max-width: 1520px;
+    background-image: url(../images/bacground-img.png);
+    width: 1520px;
+    height: 687px;
+}
